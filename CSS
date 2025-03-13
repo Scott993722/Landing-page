@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #1b1b1b;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo img {
+    width: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#hero {
+    background: url('https://www.hdcarwallpapers.com/download/porsche_911_dakar_rallye_design_package_2022_interior_8k-5120x2880.jpg') center/cover no-repeat;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+}
+
+#hero h1 {
+    font-size: 3rem;
+}
+
+#hero p {
+    font-size: 1.5rem;
+}
+
+#hero button {
+    padding: 10px 20px;
+    background-color: #0738ea;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+#models {
+    padding: 50px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+#models h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.model-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.model-cards .card {
+    width: 250px;
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.model-cards .card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.model-cards .card h3 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+#about, #contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#about h2, #contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+#contact form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#contact input, #contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #170303;
+    border-radius: 5px;
+}
+
+#contact button {
+    padding: 10px 20px;
+    background-color: #e80000;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #1b1b1b;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
