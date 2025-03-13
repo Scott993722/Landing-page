@@ -1,0 +1,5 @@
+// Scroll to models section on button click
+function scrollToModels() {
+    const modelsSection = document.getElementById('models');
+    modelsSection.scrollIntoView({ behavior: 'smooth' });
+}
